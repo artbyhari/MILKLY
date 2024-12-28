@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body1>
+
+
+    <header>
+        <div>MILKLY</div>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>CONTACT</li>
+                <li>INFO</li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="carousel">
+        <div class="list">
+            <div class="item active" style="--background: #EA3D41">
+                <div class="content">Strawberry</div>
+                <img src="img/fruit_strawberry.png" class="fruit">
+            </div>
+            <div class="item" style="--background: #2D5643">
+                <div class="content">chocolate</div>
+                <img src="img/fruit_avocado.png" class="fruit">
+            </div>
+            <div class="item hidden" style="--background: #E7A043">
+                <div class="content">orange</div>
+                <img src="img/fruit_orange.png" class="fruit">
+            </div>
+        </div>
+        <div class="leaves"></div>
+        <div class="mockup"></div>
+        <div class="shadow"></div>
+        <div class="arrow">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body1>
+<head>
+  <title>Milkly Milk Shakes</title>
+  <style>
+body {
+  background-color: #000; /* Black background */ 
+    body {
+      font-family: 'Poppins', sans-serif; /* Modern font */
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Make the page fill the viewport height */
+      background-color: #f4f4f4; /* Light gray background */
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #007bff; /* Blue */
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #333; /* Dark gray */
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #FFFFFF; /* Gray text */
+      line-height: 1.6;
+    }
+p1 {
+      color: #555; /* Gray text */
+      line-height: 1.6;
+    }
+
+
+    .overview {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .overview img {
+      max-width: 80%;
+      margin-top: 2rem;
+    }
+
+    .flavor-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem 0;
+    }
+
+    .flavor-item {
+      text-align: center;
+      margin: 2rem;
+      width: 300px;
+      background-color: #fff; /* White card background */
+      border-radius: 5px;
+      padding: 2rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    }
+
+    .flavor-item img {
+      max-width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 2rem 0;
+      background-color: #007bff; /* Blue background for CTA */
+      color: #fff; /* White text on blue */
+    }
+
+    .cta button {
+      background-color: #fff; /* White button */
+      color: #007bff; /* Blue text */
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 768px) { 
+      .flavor-section {
+        flex-direction: column; 
+      }
+    }
+}
+  </style>
+</head>
+<body>
+
+  <section class="overview">
+    <h1>Indulge in the creamy perfection of Milkly Milk Shakes.</h1>
+    <p>Crafted with the finest ingredients, each sip is a burst of flavor and a moment of pure bliss.</p>
+    <p>Whether you crave classic chocolate, refreshing strawberry, or adventurous combinations, our thick and luscious shakes are sure to satisfy your sweet tooth. Enjoy the ultimate treat – grab a Milkly Milk Shake today!</p>
+    <a href="https://ibb.co/GCv6djx"><img src="https://i.ibb.co/7rJfSFY/Whats-App-Image-2024-12-27-at-21-11-36-6dfc78ab.jpg" alt="Whats-App-Image-2024-12-27-at-21-11-36-6dfc78ab" border="0"></a> 
+  </section>
+
+  <section class="flavor-section">
+    <div class="flavor-item">
+      <h2>Chocolate Indulgence</h2>
+      <img src="https://i.ibb.co/gvj65LV/Whats-App-Image-2024-12-25-at-17-20-12-012db1d1-removebg-preview.png" alt="Whats-App-Image-2024-12-25-at-17-20-12-012db1d1-removebg-preview" border="0"></a>
+      <p1>Rich and decadent, our Chocolate Indulgence milkshake is a velvety blend of premium chocolate syrup with creamy milk.</p1>
+    </div>
+    <div class="flavor-item">
+      <h2>Sunny Citrus</h2>
+      <img src="https://i.ibb.co/8PN7yd7/Whats-App-Image-2024-12-25-at-17-20-10-b1d145bd-removebg-preview-3.png" alt="Whats-App-Image-2024-12-25-at-17-20-10-b1d145bd-removebg-preview-3" border="0"></a>
+      <p1>Burst with sunshine! Our Sunny Citrus milkshake is a refreshing blend of tangy orange juice with creamy milk.</p1>
+    </div>
+    <div class="flavor-item">
+      <h2>Strawberry Delight</h2>
+      <img src="https://i.ibb.co/hf7pGCs/Whats-App-Image-2024-12-25-at-17-20-19-5c44e40a-removebg-preview.png" alt="Whats-App-Image-2024-12-25-at-17-20-19-5c44e40a-removebg-preview" border="0">
+      <p1>Sweet and irresistible, our Strawberry Delight milkshake is a luscious blend of juicy strawberry puree with creamy milk.</p1>
+    </div>
+  </section>
+  <head3>
+    <style>
+      .vertical-form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        max-width: 500px;
+      }
+    </style>
+  </head3>
+  <body3>
+    <form class="vertical-form" action="https://submit-form.com/ 5YK2WHqxo">
+      <label for="first-name">First name</label>
+      <input id="first-name" name="first-name" type="text" />
+      <label for="last-name">Last name</label>
+      <input id="last-name" name="last-name" type="text" />
+      <label for="message">Message</label>
+      <textarea id="message" name="message" cols="15" rows="5"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body3>
+</html>
